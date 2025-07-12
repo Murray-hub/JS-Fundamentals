@@ -4,7 +4,7 @@ function myFunction(num1, num2){
 
 myFunction();
 function introduce(name, age){
-    console.log ('argument found');
+    console.log ('No argument','argument found');
    
 }
 introduce('Murray', 19);
