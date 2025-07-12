@@ -4,6 +4,6 @@ if (!args[0]) {
   console.log('No argument');
 } else if (!args[1]) {
   console.log('HBTN');
-} else {
+} else if (!args[2]){
   console.log('HBTN cool');
 }
