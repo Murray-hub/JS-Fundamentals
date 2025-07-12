@@ -2,5 +2,7 @@ const args = process.argv.slice(2);
 if(!args[0]){
     console.log('No argument');
 }else if(!args[1]) {
-    console.log(args);
+    console.log('HBNT');
+} else{
+    console.log('HBNT cool');
 }
