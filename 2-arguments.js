@@ -1,13 +1,8 @@
-function myFunction(num1, num2){
-     console.log('No argument');
+const args = process.argv.slice(2);
+if (args.length === 0) {
+console.log('No argument');
+}else if (args.length === 1){
+    console.log('Argument found');
+} else {
+    console.log('Arguments found');
 }
-
-myFunction();
-function introduce(name, age){
-    console.log ('argument found');
-   
-}
-introduce('Murray', 19);
-function sum(x,y){
-    console.log ('Arguments found');
-}sum
