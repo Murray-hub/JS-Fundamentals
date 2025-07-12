@@ -4,7 +4,10 @@ function myFunction(num1, num2){
 
 myFunction();
 function introduce(name, age){
-    console.log ('No argument','argument found');
+    console.log ('argument found');
    
 }
 introduce('Murray', 19);
+function sum(x,y){
+    console.log ('Arguments found');
+}sum
