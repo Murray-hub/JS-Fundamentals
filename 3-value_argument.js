@@ -6,7 +6,6 @@ if(!args[0]){
 } else{
     console.log(args);
 }*/
-let thing = ['No argument','HBTN','HBTN cool'];
-for (let i = 0; i < 3; i++){
-    console.log(thing [i]);
+let thing = ['No argument','HBTN','HBTN cool'];{
+    console.log(thing [0]);
 }
