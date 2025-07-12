@@ -8,5 +8,5 @@ if(!args[0]){
 }*/
 let thing = ['No argument','HBTN','HBTN cool'];{
     console.log(thing [0]);
-    console.log(thing [1]);
 }
+ console.log(thing [1]);
